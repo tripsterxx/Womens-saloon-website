@@ -1,0 +1,21 @@
+{
+  "name": "shree-guru-kripa",
+  "version": "1.0.0",
+  "description": "Prefessional e-commerce site for a saloon",
+  "main": "app.js",
+  "scripts": {
+    "devstart": "nodemon app.js"
+  },
+  "author": "Aakash",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "pug": "^3.0.2",
+    "swig": "^1.4.2"
+  }
+}

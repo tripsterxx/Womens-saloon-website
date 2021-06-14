@@ -1,0 +1,155 @@
+#introSection{
+     height: 400px;
+     background: center / cover no-repeat url("/static/images/whiteBg.jpg");
+     color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Arvo', serif;
+     font-size: 2.2rem;
+     flex-direction: column;
+     padding-bottom: 80px;
+}
+
+#welcome1{
+     font-size: 38px;
+     color: #e80c90;
+     letter-spacing: 2px;
+     padding-top: 73px;
+}
+
+#welcome2{
+     color: #f25d02;
+     font-weight: bold;
+     font-size: 50px;
+     letter-spacing: 2px;
+}
+
+#pricing{
+     background: linear-gradient(125deg ,rgba(66, 121, 172, 0.856),rgba(152, 111, 206, 0.787),rgba(71, 202, 196, 0.842),rgba(160, 78, 228, 0.842));
+     background-size: 400%;
+     animation: bganimation 28s infinite;
+}
+
+@keyframes bganimation{
+     0%{
+          background-position: 0% 50%;
+     }    
+     50%{
+          background-position: 100% 50%;
+     }    
+     100%{
+          background-position: 0% 50%;
+     }    
+}
+
+#pricing h2{
+     margin: 0px auto;
+     font-size: 30px;
+     margin-bottom: 14px;
+     padding-top: 16px;
+     margin-left: 32%;
+     color: #00fff3;
+}
+
+.cardContainer{
+     display: flex;
+     height: 422px;
+     padding-top: 24px;
+}
+
+.card{
+     height: 300px;
+     padding: 10px 0px;
+     margin: 6px 84px;
+     width: 22%;
+     border: 2px solid #09ff00;
+     background-color: #feb8c3;
+     border-radius: 10px;
+     box-shadow: 7px 6px 14px 0 rgb(0 0 0 / 20%);
+}
+
+.card:hover{
+     transition-duration: 0.3s;
+     transition-timing-function: ease-in-out;
+     box-shadow: 14px 8px 10px 0px rgb(0 0 0 / 19%), -14px 8px 10px 0px rgb(0 0 0 / 19%);
+     border-radius: 4px;
+}
+
+.card:hover img{
+     transition-duration: 0.3s;
+     transition-timing-function: ease-in-out;
+     border-radius: 2px;
+     box-shadow: 0px 8px 10px 0px rgb(0 0 0 / 19%);
+}
+
+.card h4{
+     color: #ff00c8;
+}
+
+#leftH4Card{
+     padding-left: 9%;
+     color: #2617fd;
+}
+
+.leftCard{
+     background-color: #b8d9fe70;
+}
+
+.leftCard:hover{
+     background-color: #daa3ffbf;
+}
+
+#middleH4Card{
+     padding-left: 21%;
+     color: #ff0080;
+}
+
+.middleCard{
+     background-color: #ffce9f7d;
+}
+
+.middleCard:hover{
+     background-color: #fbbc81cc;
+}
+
+#rightH4Card{
+     padding-left: 6%;
+     color: red;
+}
+
+.rightCard{
+     background-color: #b8fef970;
+}
+
+.rightCard:hover{
+     background-color: #92fff8b2;
+}
+
+
+.card img{
+     border-radius: 14px;
+     height: 167px;
+     width: 217px;
+     margin-top: 13px;
+     margin-left: 32px;
+}
+
+#cardLeftMsg{
+     font-size: 14px;
+     padding: 16px 51px;
+     color: #491ef79e;
+}
+
+#cardMiddletMsg{
+     font-size: 14px;
+     padding: 10px 42px;
+     color: #ff00eb;
+}
+
+#cardRightMsg{
+     font-size: 14px;
+     padding: 9px 28px;
+     color: #ff0000cf;
+}
+

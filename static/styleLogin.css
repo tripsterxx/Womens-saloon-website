@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+}
+body{
+     background: url(/static/images/loginBackground.jpg) no-repeat center center fixed;
+     background-size: cover;
+}
+
+.container{
+     color: white;
+     position: absolute;
+     top: 20%;
+     left: 40%;
+     padding: 12px;
+     
+}
+
+.container h1{
+     font-family: 'Heebo', sans-serif;
+     display: inline-block;
+     font-size: 40px;
+     border-bottom: 5px solid rgb(236, 140, 175);
+     margin-bottom: 6px;
+     letter-spacing: 1px;
+     word-spacing: 5px;
+     color: rgb(135 255 128);
+}
+
+.box{
+     width: 100%;
+     border-bottom: 2px solid chartreuse;
+     margin: 28px 4px;
+}
+
+.box input{
+     width: 75%;
+     padding: 6px 10px;
+     font-size: 17px;
+     border: none;
+     border-radius: 8px;
+     outline: none;
+     color: white;
+     background: none;
+}
+
+.box i{
+     width: 25px;
+     text-align: center;
+}
+
+
+.submit i{
+     width: 25px;
+     padding: 0px 7px;
+     text-align: center;
+}
+.btn{
+     cursor: pointer;
+     outline: none;
+     width: 27%;
+     margin: 10px 0px;
+     padding: 6px;
+     border: 2px solid #bb9eef;
+     border-radius: 10px;
+     background: none;
+     font-size: 16px;
+     color: white;
+     font-weight: bold;
+}
+
+.btn:hover{
+     color: rgb(255, 0, 0);
+     background: rgba(72, 156, 51, 0.65);
+     font-weight: bold;
+
+}
+.back{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: 0px -10px;
+}
+.back li{
+     margin: 42px 10px;
+     list-style: none;
+     
+}
+.back li a{
+     text-decoration: none;
+     padding: 7px 13px 8px 3px;
+     color: #80ff60;
+     font-family: system-ui
+}
+.back li a:hover{
+     color: rgb(231, 160, 68);
+}

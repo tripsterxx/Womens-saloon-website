@@ -1,0 +1,49 @@
+.contactUs{
+     text-align: center;
+     margin: 12px 0px;
+}
+.container{
+     min-height: 85.4vh;
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+     flex-direction: column;
+     background: linear-gradient(57deg, #8de5ff8c, #92f985cf);
+}
+
+.myForm{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+}
+
+.myInput{
+     outline: none;
+     outline: none;
+     width: 35%;
+     padding: 10px;
+     margin: 6px;
+     border: 2px solid #b26ee6;
+     border-radius: 15px;
+     font-size: 14px;
+     margin-bottom: 15px;
+}
+
+.btn{
+     padding: 10px 18px;
+     font-size: 14px;
+     border: 2px solid #5433d7de;
+     border-radius: 15px;
+     cursor: pointer;
+     background: mediumpurple;
+     /* color: #fbff00; */
+     color: black;
+     margin-bottom: 10px;
+     outline: none;
+}
+
+#footer{
+     height: 7.3vh;
+}
